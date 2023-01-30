@@ -1,0 +1,143 @@
+footer{
+    background-color: #4d4d4d;
+}
+footer .holder{
+    padding: 54px 40px;
+    margin-top: 0;
+    text-align: left;
+    box-sizing: border-box;
+}
+footer .info{
+    color: #d9d9d9;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+footer .info span:not(:last-child) {
+    position: relative;
+    margin-right: 20px;
+}
+footer .info span:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: -13px;
+    width: 1px;
+    height: 10px;
+    background-color: #808080;
+}
+footer .fnav {
+    margin-top: 27px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #3e3e3e;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+footer .fnav ul{
+    display: flex;
+}
+.fnav a{
+    display: block;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+}
+.fnav a:hover{
+    text-decoration: underline;
+}
+footer .fnav ul + ul, footer .fnav li + li {
+    margin-left: 30px;
+}
+.fnav a span{
+    position: relative;
+    top: -1px;
+    margin-left: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 9px;
+    background: url('../img/img82.png') no-repeat;
+    background-size: 100% 100%;
+}
+footer .siteinfo{
+    margin-top: 37px;
+    color: #d9d9d9;
+}
+footer .fadd{
+    letter-spacing: -0.05em;
+}
+footer .hide{
+    display: none;
+}
+footer .info a{
+    color: #fff;
+    text-decoration: underline;
+}
+footer .fbottom{
+    margin-top: 26px;
+    padding-top: 32px;
+    color: #b3b3b3;
+    word-break: keep-all;
+    border-top: 2px solid #494949;
+}
+footer .fbottom button{
+    height: 26px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+    letter-spacing: inherit;
+    outline: none;
+    vertical-align: top;
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+}
+
+@media (max-width:1246px) {
+    footer .holder{
+        padding: 38px 0;
+    }
+    footer .info span:not(:last-child){
+        margin-right: 14px;
+    }
+    footer .fnav{
+        margin-top: 19px;
+    }
+    .fnav a{
+        line-height: 35px;
+    font-size: 12px;
+    }
+    .fnav a span{
+        top: 0;
+    margin-left: 10px;
+    width: 4px;
+    height: 6px;
+    }
+    footer .siteinfo{
+        margin-top: 26px;
+    }
+    footer .fbottom{
+        margin-top: 18px;
+    padding-top: 22px;
+    font-size: 12px;
+    }
+    footer .fbottom button{
+        height: 24px;
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:969px) {
+    footer .fnav ul + ul, footer .fnav li + li{
+        margin-left: 15px;
+    }
+}
+@media (max-width:846px) {
+    footer .fnav ul + ul, footer .fnav li + li{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:767px) {}

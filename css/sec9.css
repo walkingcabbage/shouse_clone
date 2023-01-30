@@ -1,0 +1,167 @@
+.sec9{
+    margin-top: 80px !important;
+}
+.sec9TopInner {
+    display: flex;
+    justify-content: space-between;
+  }
+.sec9TopInner>.title {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 63px;
+  }
+  .sec9 .mdGallery{
+    margin-top: -23px;
+  }
+  .sec9 .mdUl{
+    width: calc(100% + 20px);
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .sec9 .mdLi{
+    width: calc(25% - 20px);
+    position: relative;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .sec9 .mdLi a{
+    position: relative;
+    display: block;
+  }
+  .sec9 .ww{
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  .sec9 .thumbs{
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 100%;
+    transition: transform .4s ease-in-out;
+  }
+  .sec9 .mdLi a:hover  .ww> .thumbs{
+    transform: scale(1.05);
+  }
+  .sec9 .mdLi a:hover  .txt{
+    text-decoration: underline;
+  }
+  .sec9 .t1{
+    background-image: url('../img/t1.jpg');
+  }
+  .sec9 .t2{
+    background-image: url('../img/t2.jpg');
+  }
+  .sec9 .t3{
+    background-image: url('../img/t3.jpg');
+  }
+  .sec9 .t4{
+    background-image: url('../img/t4.jpg');
+  }
+  .sec9 .t5{
+    background-image: url('../img/t5.jpg');
+  }
+  .sec9 .t6{
+    background-image: url('../img/t6.jpg');
+  }
+  .sec9 .t7{
+    background-image: url('../img/t7.jpg');
+  }
+  .sec9 .t8{
+    background-image: url('../img/t8.jpg');
+  }
+  .sec9 .btnScrap{
+    z-index: 100;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 41px;
+    height: 47px;
+    font-size: 0;
+    background: url('../img/img42.png') center center no-repeat;
+    background-size: 31px auto;
+    letter-spacing: inherit;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+  }
+  .sec9 .txt{
+    text-align: start;
+    height: 20px;
+    white-space: nowrap;
+    margin-bottom: -3px;
+    line-height: 20px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #808080 !important;
+    margin-top: 21px !important;
+  }
+  .sec9 .pInfo{
+    padding-left: 0;
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-top: 12px !important;
+  }
+  .sec9 .discount{
+    position: static;
+    display: inline-block;
+    vertical-align: top;
+    color: #e05438 !important;
+  }
+  .sec9 .price{
+    display: inline-block;
+    vertical-align: top;
+    color: #222624;
+  }
+  .sec9 .price span{
+    margin-right: 4px;
+    font-size: 20px;
+    color: #b3b3b3;
+    text-decoration: line-through;
+  }
+  .sec9 .gInfo{
+    height: 19px;
+    overflow: hidden;
+    font-size: 0;
+  }
+
+  @media (max-width:1246px) {
+    .sec9TopInner>.title{
+      line-height: 57px;
+      font-size: 23px;
+    }
+    .sec9 .btnScrap{
+      right: 7px;
+    bottom: 7px;
+    width: 29px;
+    height: 34px;
+    background-size: 22px auto;
+    }
+    .sec9 .txt{
+      line-height: 18px;
+    font-size: 12px;
+    }
+    .sec9 .pInfo{
+      padding-top: 18px;
+    line-height: 18px;
+    font-size: 16px;
+    }
+    .sec9 .discount{
+      position: absolute;
+    top: 0;
+    left: 0;
+    }
+    .sec9 .price span{
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width:767px) {}

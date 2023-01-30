@@ -1,0 +1,51 @@
+
+/* 섹션3 */
+.sec3Inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+  
+  .sec3Inner .rec {
+    font-size: 25px;
+    font-weight: bold;
+  
+  }
+  
+  .sec3Inner .option {
+    font-weight: bold;
+    padding-right: 25px;
+    background-image: url('../img/img40.png');
+    background-size: 15px auto;
+    background-position: right;
+    background-repeat: no-repeat;
+    line-height: 35px;
+  }
+
+
+  @media (max-width:1246px) {
+    .sec3Inner .option{
+      padding-right: 18px;
+      background-size: 11px auto;
+      top: 14px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    }
+    .sec3Inner .rec{
+      line-height: 57px;
+      font-size: 23px;
+    }
+    
+  }
+  
+  @media (max-width:767px) {
+    .sec3Inner .rec{
+      font-size: 21px;
+    }
+    .sec3Inner .option{
+      font-size: 11px;
+      background-size: 15px auto;
+    }
+  }

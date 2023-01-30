@@ -1,0 +1,358 @@
+.top-nav {
+  width: 100%;
+  background-color: #F2F2F2;
+}
+header>article>.holder{
+  display: none;
+}
+.top-nav .nav-holder {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.top-nav .nav-holder .nav-l {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-left {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.gp {
+  background-image: url(../img/u_gp.png);
+}
+
+.ap {
+  background-image: url(../img/u_ap.png);
+}
+
+.in {
+  background-image: url(../img/u_in.png);
+}
+
+.kt {
+  background-image: url(../img/u_kc.png);
+}
+
+.fb {
+  background-image: url(../img/u_fb.png);
+}
+
+.yt {
+  background-image: url(../img/u_yt.png);
+}
+
+.top-nav .nav-holder .nav-r {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.top-nav .nav-holder .nav-r li {
+  font-size: 12px;
+  line-height: 40px;
+
+}
+
+.top-nav .nav-holder .nav-r li a {
+  color: rgb(65, 65, 65);
+}
+
+.top-nav .nav-holder .nav-r li a:hover {
+  text-decoration: underline;
+}
+
+article {
+  padding-top: 20px;
+}
+
+.logo a {
+  display: block;
+  width: 155px;
+  height: 25px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.logo a .logo-back {
+  display: block;
+  width: 100%;
+  height: 30px;
+  background: url(../img/sp_common.png) no-repeat;
+}
+
+.bottom-nav {
+  width: 100%;
+  height: 65px;
+  padding-top: 10px;
+  display: flex;
+  border-bottom: 1px solid #d9d9d9;
+
+}
+
+.bottom-nav .bottom-nav-holder {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-nav .bottom-nav-holder .bottom-nav-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.bottom-nav .bottom-nav-holder .bottom-nav-left li a {
+  display: block;
+}
+
+.bottom-nav .bottom-nav-holder .bottom-nav-left li a span {
+  font-weight: bold;
+}
+
+.bottom-nav .bottom-nav-holder .bottom-nav-left li a .menu {
+  width: 26px;
+  height: 17px;
+  display: block;
+  font-size: 0;
+  background-image: url(../img/sp_common.png);
+  background-position: -22px -32px;
+}
+
+.bottom-nav .bottom-nav-holder .bottom-nav-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.bottom-nav .bottom-nav-holder .bottom-nav-right ul {
+  display: flex;
+  gap: 10px;
+}
+
+.bottom-nav .bottom-nav-holder .bottom-nav-right ul li a {
+  display: block;
+}
+
+.bottom-nav .bottom-nav-holder .bottom-nav-right ul li a .b-n-r {
+
+  display: block;
+  font-size: 0;
+
+
+}
+.Hscrap{
+  display: none;
+}
+.user {
+  width: 21px;
+  height: 21px;
+  background-image: url(../img/sp_common.png);
+  background-position: -50px -32px;
+}
+
+.kart {
+  width: 26px;
+  height: 24px;
+  background-image: url(../img/sp_common.png);
+  background-position: -73px -32px;
+}
+
+.write {
+  width: 22px;
+  height: 22px;
+  background-image: url(../img/sp_common.png);
+  background-position: -101px -32px;
+}
+
+.bottom-nav .bottom-nav-holder .bottom-nav-right .search-box {
+  background-color: #eeeeee;
+
+}
+
+.bottom-nav .bottom-nav-holder .bottom-nav-right .search-box form {
+  display: flex;
+  align-items: center;
+
+}
+
+.bottom-nav .bottom-nav-holder .bottom-nav-right .search-box form input {
+  border: none;
+  background-color: transparent;
+  width: 140px;
+  height: 38px;
+  padding-left: 10px;
+  outline: none;
+  font-size: 11px;
+}
+
+.search-btn button {
+  display: block;
+  border: none;
+}
+
+.search-btn button .search-btn-back {
+  cursor: pointer;
+  display: block;
+  width: 16px;
+  height: 16px;
+  font-size: 0;
+  background-image: url(../img/sp_common.png);
+  background-position: -125px -32px;
+}
+
+
+@media (max-width:1246px) {
+  .bottom-nav .bottom-nav-holder .bottom-nav-right .search-box form input {
+    height: 26px;
+  }
+
+  .user {
+    width: 15px;
+    height: 15px;
+    background-position: -35px -23px;
+    background-image: url(../img/sp_common_t.png);
+    background-size: 112px auto;
+
+  }
+
+  .kart {
+    width: 18px;
+    height: 17px;
+    background-position: -51px -23px;
+    background-image: url(../img/sp_common_t.png);
+    background-size: 112px auto;
+  }
+
+  .write {
+    width: 15.5px;
+    height: 15.5px;
+    background-position: -70px -23px;
+    background-image: url(../img/sp_common_t.png);
+    background-size: 112px auto;
+  }
+
+  .logo a {
+    width: 108.5px;
+    height: 26px;
+  }
+
+  .bottom-nav .bottom-nav-holder {
+    padding-right: 23px;
+    padding-left: 23px;
+  }
+
+  .top-nav .nav-holder {
+    padding-right: 23px;
+    padding-left: 23px;
+  }
+  .bottom-nav{
+    height: 40px;
+  }
+  .logo a .logo-back {
+    height: 21px;
+    background-size: 112px auto;
+  }
+}
+
+@media (max-width:767px) {
+  
+  .logo{
+    position: absolute;
+    display: block;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  header>article{
+    padding: 0;
+  }
+  .top-nav{
+    display: none;
+  }
+  .bottom-nav{
+    border: none;
+  }
+  .bottom-nav .bottom-nav-holder .bottom-nav-right .search-box .p_searchbox{
+    display: none;
+  }
+  .bottom-nav .bottom-nav-holder .bottom-nav-left li{
+display: none;
+  }
+  .bottom-nav .bottom-nav-holder .bottom-nav-left li:first-child{
+    display: initial;
+  }
+  .Hscrap{
+    background-image: url(../img/sp_common_m.png);
+    margin-top: -2px;
+    width: 14.33px;
+    height: 18px;
+    background-position: -21px -18px;
+    background-size: 100px auto;
+  }
+  .bottom-nav .bottom-nav-holder .bottom-nav-right{
+    gap: 0;
+  }
+  .userwrap{
+    display: none;
+  }
+  .writewrap{
+    display: none;
+  }
+  .logo a{
+    width: 108px;
+    height: inherit;
+    line-height: 53px;
+  }
+  .logo a .logo-back{
+    width: 88px;
+    height: 17px;
+    background-image: url(../img/sp_common_m.png);
+    background-size: 100px auto;
+  }
+  .m_searchbox{
+    background-color: #f2f2f2;
+    border-radius: 20px
+  }
+  .m_searchbox a{
+    position: relative;
+    display: block;
+    line-height: 40px;
+    text-align: left;
+    text-indent: 20px;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .m_searchbox a span{
+    position: absolute;
+    top: calc(50% - 7.5px);
+    right: 19px;
+    width: 15px;
+    height: 15px;
+    background-position: -57px -18px;
+    background-size: 100px auto;
+    background-image: url(../img/sp_common_m.png);
+  }
+  header article .holder{
+    display: block;
+    margin-top: 0;
+  }
+}

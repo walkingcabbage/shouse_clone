@@ -1,0 +1,214 @@
+/* 섹션5 */
+.sec5 {
+  padding-bottom: 50px;
+}
+
+.sec5TopInner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec5TopInner>.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sec5MiddleInner>.ulWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec5MiddleInner>.ulWrap>ul {
+  flex: 1;
+  display: flex;
+  gap: 1%;
+}
+
+.sec5MiddleInner>.ulWrap>ul>li>a {
+  background-color: #d9d9d9;
+  z-index: 10;
+  position: relative;
+  display: block;
+  padding: 0 13px;
+  line-height: 37px;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.sec5MiddleInner>.ulWrap>ul>li>a:hover {
+  background-color: #d9d9d9;
+}
+
+.sec5MiddleInner>.ulWrap>ul>li>a.active {
+  background-color: #009a3e;
+  color: #fff;
+}
+
+.sec5MiddleInner>div>div>span {
+  line-height: 35px;
+  font-size: 15px;
+  color: #808080;
+}
+
+.sec5BottomInner {
+  width: 93%;
+  margin: 0 auto;
+}
+
+.sec5BottomInner>ul {
+  display: flex;
+  gap: 2%;
+}
+
+.sec5BottomInner>ul>li {
+  width: 230px;
+  background-color: #f8f8f8;
+  position: relative;
+  padding: 30px 30px 27px 122px;
+  border-radius: 4px;
+}
+
+.sec5BottomInner .rankingTxt {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  background-color: #009a3e;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.sec5BottomInner .rankingBox {
+  display: flex;
+  position: relative;
+}
+
+.sec5BottomInner .rankingBox:hover .rankName {
+  text-decoration: underline;
+}
+
+.sec5BottomInner .img {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  left: -90px;
+  top: -10px;
+}
+
+.sec5BottomInner .img.i1 {
+  background-image: url('../img/221011_143834.jpg');
+}
+
+.sec5BottomInner .img.i2 {
+  background-image: url('../img/221129_003624_jpeg.jpg');
+}
+
+.sec5BottomInner .con>.top {
+  text-align: left;
+
+}
+
+.sec5BottomInner .con>.top>.rankName {
+  position: relative;
+  padding-right: 13px;
+  font-size: 18px;
+}
+
+.sec5BottomInner .con>.top>.rankName::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #b3b3b3;
+  border-radius: 100%;
+}
+
+.sec5BottomInner .con>.top>.flwBtn {
+  position: relative;
+  top: -2px;
+  font-size: 13px;
+  color: #009a3e;
+  line-height: 21px;
+}
+
+.sec5BottomInner .bottom {
+  padding-top: 5px;
+  font-size: 15px;
+  color: #808080;
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width:1246px) {
+  .sec5TopInner>.title {
+    line-height: 57px;
+    font-size: 23px;
+  }
+
+  .sec5MiddleInner>.ulWrap>ul>li>a {
+    padding: 0 9px;
+    line-height: 33px;
+    font-size: 13px;
+  }
+
+  .sec5MiddleInner>div>div>span {
+    font-size: 13px;
+  }
+
+  .sec5BottomInner>ul>li {
+    width: calc((100% + 60px) / 3);
+    height: 83px;
+    padding: 21px 21px 19px 78px;
+    line-height: 18px;
+    box-sizing: border-box;
+  }
+  .sec5BottomInner .img{
+    top: 0px;
+    left: -60px;
+    width: 48px;
+    height: 48px;
+  }
+  .sec5BottomInner .bottom{
+    text-align: left;
+    font-size: 12px;
+  }
+  .sec5BottomInner .con>.top>.rankName{
+    font-size: 13px;
+  }
+  .sec5BottomInner .con>.top>.flwBtn{
+    top: 0;
+  }
+  .sec5BottomInner .con>.top>.rankName::after{
+    top: 7px;
+    right: 2px;
+    width: 2px;
+    height: 2px;
+  }
+}
+
+@media (max-width:767px) {
+  .sec5{
+    overflow-x: hidden;
+  }
+  .sec5BottomInner>ul>li{
+    width: 49%;
+    min-width: 212px;
+  }
+  .sec5MiddleInner>div>div{
+    display: none;
+  }
+}

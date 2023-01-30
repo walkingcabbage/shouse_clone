@@ -1,0 +1,90 @@
+.sec11{
+    padding-top: 30px !important;
+    padding-bottom: 80px;
+}
+.sec11 .sec11TopInner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+}
+.sec11TopInner>.title {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 63px;
+  }
+
+  .sec11Box{
+    display: flex;
+    justify-content: space-between;
+  }
+  .sec11Box a{
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+  }
+  .sec11Box .tit{
+    padding-top: 28px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 6.78%;
+    text-align: left;
+    color: #4d4d4d;
+  }
+  .sec11Box .desc{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #808080;
+    padding-left: 6.78%;
+    text-align: left;
+  }
+  .sec11 .hide{
+    display: none;
+  }
+  .sec11Box .sec11icon{
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    background-image: url('../img/img76.png');
+    background-size: auto 100%;
+    z-index: 2;
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 40px;
+    width: 40px;
+    height: 40px;
+  }
+  .sec11 .i1{
+    background-position: -300% 0;
+  }
+  .sec11 .i2{
+    background-position: -200% 0;
+  }
+
+
+  @media (max-width:1246px) {
+    .sec11TopInner>.title{
+      line-height: 57px;
+    font-size: 23px;
+    }
+    .sec11Box{
+      padding-top: 0;
+    }
+    .sec11Box .tit{
+      padding-top: 17px;
+      font-size: 14px;
+    }
+    .sec11Box .desc{
+      margin-top: 4px;
+    font-size: 13px;
+    }
+    .sec11Box a{
+      width: calc(50% - 7px);
+    height: 70px;
+    }
+  }
+  
+  @media (max-width:767px) {}

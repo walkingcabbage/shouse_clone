@@ -1,0 +1,187 @@
+/* 섹션 6 */
+.sec6 {
+  padding-bottom: 50px;
+}
+
+.sec6 .l-right {
+  text-align: left;
+}
+
+.sec6 .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+
+}
+
+.sec6 .headline {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sec6 .moreBtn {
+  display: block;
+  font-size: 16px;
+  color: #009A3E;
+  font-weight: bold;
+  background-image: url(../img/arrow04_r.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 20px;
+  background-size: 7px auto;
+}
+
+.sec6 ul {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.sec6 li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  ;
+}
+
+.sec6 li>a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec6 li>a:hover .l-r-top {
+  text-decoration: underline;
+}
+
+.sec6 .left {
+  display: flex;
+  margin-left: 30px;
+}
+
+.sec6 .right {
+
+  padding-right: 30px;
+}
+
+.sec6 .l-left {
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+
+.sec6 .l-left>img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px black;
+  object-fit: cover;
+}
+
+.sec6 .l-r-top {
+  display: inline-block;
+  background-image: url(../img/place.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 12px auto;
+  padding-right: 20px;
+
+}
+
+.sec6 .l-r-bottom {
+  text-align: left;
+  font-size: 14px;
+  color: rgb(121, 121, 121);
+}
+
+.sec6 .like {
+  color: rgb(121, 121, 121);
+  ;
+  font-size: 14px;
+  display: inline-block;
+  background-image: url(../img/state_like.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 100%;
+  padding-left: 30px;
+  margin-right: 20px;
+  line-height: 15px;
+  text-align: left;
+}
+
+.sec6 .star {
+  background-image: url(../img/state_scrap.png);
+  color: rgb(121, 121, 121);
+  ;
+  font-size: 14px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 100%;
+  padding-left: 30px;
+}
+
+
+@media (max-width:1246px) {
+  .sec6 .headline {
+    line-height: 57px;
+    font-size: 23px;
+  }
+
+  .sec6 .moreBtn {
+    padding-right: 12px;
+    background-size: 5px auto;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+  }
+
+  .sec6 .l-r-top {
+    font-size: 14px;
+  }
+
+  .sec6 .l-r-bottom {
+    font-size: 13px;
+  }
+
+  .sec6 .like {
+    width: 31px;
+    padding-left: 22px;
+    font-size: 13px;
+
+  }
+
+  .sec6 .star {
+    font-size: 13px;
+    line-height: 15px;
+    padding-left: 22px;
+  }
+}
+
+@media (max-width:767px) {
+  .sec6 .right{
+    display: none;
+  }
+  .sec6 li>a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: url(../img/arrow05_r.png);
+    background-position-x: calc(100% - 15px) !important;
+    background-size: 6px auto;
+    background-position-y: center;
+    background-repeat: no-repeat;
+  }
+  .sec6 .moreBtn{
+    display: none;
+  }
+  .sec6 .l-r-top{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

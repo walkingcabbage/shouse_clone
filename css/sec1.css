@@ -1,0 +1,126 @@
+
+.imgs {
+    /* border-radius: 4px; */
+  }
+  
+  .swiper-pagination {
+    display: inline-block;
+    position: static !important;
+    width: auto !important;
+    font-size: 0px;
+    font-weight: bold;
+  }
+  
+  .swiper-pagination>span {
+    font-size: 12px;
+  }
+  
+  .slide_control {
+    margin-top: 15px;
+    position: absolute;
+    right: 0px;
+    width: 95px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagerl {
+    background-image: url(../img/arrow03_l.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 32px;
+    height: 27px;
+    background-size: 7px auto;
+    margin-right: 10px;
+  }
+  
+  .pagerr {
+    background-image: url(../img/arrow02_r.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 32px;
+    height: 27px;
+    background-size: 7px auto;
+  }
+  
+  .pager::after {
+    display: inline-block;
+    content: none !important;
+  }
+  
+  .swiper-pagination-current {
+    color: #808080 !important;
+  }
+  
+  .imgWrap {
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0;
+  }
+  
+  .imgWrap>.imgs {
+    transition: transform 0.5s;
+  }
+  
+  .imgWrap>.imgs:hover {
+    transform: scale(1.025);
+  }
+  
+  .swiper-pagination-total {
+    margin-left: 16px;
+    color: #b3b3b3;
+  }
+  
+  .swiper-pagination-total::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 11px;
+    width: 4px;
+    height: 4px;
+    background-color: #b3b3b3;
+    border-radius: 100%;
+  }
+  
+
+  @media (max-width:1246px) {
+    .swiper-pagination>span{
+      font-size: 10px;
+    }
+    .swiper-pagination>span{
+      font-size: 10px;
+    }
+    
+  }
+  
+  @media (max-width:767px) {
+    .slide_control{
+      margin-top: 0;
+      bottom: 10px;
+      right: 15px;
+      background-color: rgba(0, 0, 0, 0.445);
+      z-index: 1;
+    width: auto;
+    padding: 1px 5px;
+    border-radius: 15px;
+    }
+    .swiper-button-prev{
+      display: none !important;
+    }
+    .swiper-button-next{
+      display: none !important;
+    }
+    .swiper-pagination-current{
+      color: #fff !important;
+    }
+    .swiper-pagination-total{
+      color: #fff;
+    }
+    .swiper-pagination-total::before{
+      width: 3px;
+      height: 3px;
+      top: calc(50% - 1px);
+      left: 12px;
+    }
+  }

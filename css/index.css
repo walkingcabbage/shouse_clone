@@ -1,0 +1,77 @@
+
+
+@import url(./reset.css);
+@import url(./sec1.css);
+@import url(./header.css);
+@import url(./sec2.css);
+@import url(./sec3.css);
+@import url(./sec4.css);
+@import url(./sec5.css);
+@import url(./sec6.css);
+@import url(./sec7.css);
+@import url(./sec8.css);
+@import url(./sec9.css);
+@import url(./sec10.css);
+@import url(./sec11.css);
+@import url(./footer.css);
+
+/* 섹션8 */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.holder {
+  position: relative;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+
+}
+
+
+
+@media (max-width:1246px) {
+  .holder{
+    margin-right: 23px;
+    margin-left: 23px;
+  }
+  .top-nav .nav-holder .nav-r li {
+    line-height: 26px;
+    font-size: 11px;
+  }
+
+  .nav-left {
+    width: 18px;
+    height: 18px;
+    background-size: 100% 100%;
+  }
+
+
+
+
+  .bottom-nav .bottom-nav-holder .bottom-nav-left li a span {
+    font-size: 14px;
+  }
+
+  .bottom-nav .bottom-nav-holder .bottom-nav-left li a .menu {
+    width: 18px;
+    height: 12px;
+    background-size: 112px auto;
+    background-position: -16px -23px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+
+@media (max-width:767px) {}
