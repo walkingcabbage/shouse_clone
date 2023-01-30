@@ -76,4 +76,14 @@
     
   }
   
-  @media (max-width:767px) {}
+  @media (max-width:767px) {
+    .sec8BottomInner>.innerBoxS>.bottomUl>li>a:nth-child(15n+16)::before{
+display: none;
+    }
+    .sec8BottomInner>.innerBoxS>.bottomUl>li a:nth-child(10n+11)::before{
+      content: "";
+      display: block;
+      width: 100%;
+      height: 15px;
+    }
+  }

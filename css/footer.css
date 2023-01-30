@@ -37,6 +37,7 @@ footer .fnav {
 }
 footer .fnav ul{
     display: flex;
+    min-width: 153px;
 }
 .fnav a{
     display: block;
@@ -140,4 +141,59 @@ footer .fbottom button{
     }
 }
 
-@media (max-width:767px) {}
+@media (max-width:767px) {
+    footer .holder{
+        padding: 25px 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    footer .info{
+        line-height: 19px;
+    font-size: 10px;
+    }
+    footer .fnav{
+        background-color: rgba(255, 255, 255, 0);
+        gap: 10px;
+    }
+    footer .fnav ul{
+        width: calc(50% - 8px);
+        background-color: #3e3e3e;
+        padding: 12px 0;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+    .fnav a{
+        text-align: left;
+        padding: 0 16px;
+    line-height: 30px;
+    font-size: 11px;
+    }
+    footer .fnav ul + ul, footer .fnav li + li{
+        margin: 0;
+    }
+    .fnav a span{
+        float: right;
+        top: 12px;
+    }
+    footer .hide{
+        display: inherit;
+    }
+footer .info span:not(:last-child)::after{
+    display: none;
+}
+footer .info span:not(:last-child){
+    display: block;
+}
+.finner>span{
+display: inline !important;
+}
+}
+@media (max-width: 359px){
+    footer .holder{
+        padding-right: 5px;
+    padding-left: 5px;
+    }
+    .fnav a{
+        padding: 0 8px;
+    }
+}

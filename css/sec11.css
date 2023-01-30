@@ -87,4 +87,37 @@
     }
   }
   
-  @media (max-width:767px) {}
+  @media (max-width:767px) {
+
+    .sec11Box .tit{
+      padding-top: 16px;
+    line-height: 22px;
+    font-size: 15px;
+    }
+    .sec11Box .desc{
+      margin-top: 3px;
+    line-height: 16px;
+    font-size: 11px;
+    }
+    .sec11 .hide{
+      display: inherit;
+    }
+    .sec11 .i1{
+      top: auto;
+    bottom: 17px;
+    right: 10.6%;
+    width: 33px;
+    height: 33px;
+    }
+    .sec11 .i2{
+      top: auto;
+    bottom: 17px;
+    right: 10.6%;
+    width: 33px;
+    height: 33px;
+    }
+    .sec11Box a{
+      width: calc(50% - 8px);
+    height: 117px;
+    }
+  }

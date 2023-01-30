@@ -235,4 +235,21 @@
     }
     
   
-  @media (max-width:767px) {}
+  @media (max-width:767px) {
+
+    .sec7BottomInner>ul li{
+      width: 49%;
+    }
+    .sec7BottomInner>ul li:first-child{
+      width: 100%;
+    }
+    .sec7BottomInner>ul li:nth-child(5)~li{
+      display: none;
+    }
+    .sec7BottomInner .listA1 .imgsWrap .play{
+      top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    width: 30px;
+    height: 30px;
+    }
+  }

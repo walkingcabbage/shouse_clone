@@ -5,6 +5,10 @@
 
 .sec6 .l-right {
   text-align: left;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .sec6 .title {
@@ -50,7 +54,7 @@
 }
 
 .sec6 li>a {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
 }
@@ -62,6 +66,8 @@
 .sec6 .left {
   display: flex;
   margin-left: 30px;
+  text-align: left;
+  white-space: nowrap;
 }
 
 .sec6 .right {
@@ -71,8 +77,10 @@
 
 .sec6 .l-left {
   width: 49px;
+  min-width: 49px;
   height: 49px;
   margin-right: 10px;
+  display: inline-block;
 }
 
 .sec6 .l-left>img {
@@ -90,6 +98,9 @@
   background-position: right center;
   background-size: 12px auto;
   padding-right: 20px;
+  overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
 
 }
 
@@ -97,6 +108,9 @@
   text-align: left;
   font-size: 14px;
   color: rgb(121, 121, 121);
+  overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
 }
 
 .sec6 .like {
@@ -180,8 +194,13 @@
     display: none;
   }
   .sec6 .l-r-top{
+    display: block;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+  .sec6 .left{
+    margin-left: 5px;
+  }
+
 }

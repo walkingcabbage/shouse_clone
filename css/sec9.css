@@ -17,6 +17,7 @@
     width: calc(100% + 20px);
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
   }
   .sec9 .mdLi{
@@ -164,4 +165,8 @@
     }
   }
   
-  @media (max-width:767px) {}
+  @media (max-width:767px) {
+    .sec9 .mdLi{
+      width: calc(48% - 15px);
+    }
+  }

@@ -135,4 +135,45 @@
     
 }
 
-@media (max-width:767px) {}
+@media (max-width:767px) {
+  .sec10 .sec10Li{
+    width: calc((100% - -660px)/4);
+  }
+  .sliderPrev1,.sliderNext1{
+    display: none;
+  }
+  .sec10 .sliderScrollbar{
+    display: block;
+  }
+  .sec10 .pager{
+    display: block;
+  }
+  section.sec10 > div > article.sec10BottomInner > div.swiper-controls > div.pager.swiper-pagination-fraction.swiper-pagination-horizontal{
+    display: inline-block !important;
+    width: 30px;
+    padding: 0 8px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+  }
+  body > main > section.sec10 > div > article.sec10BottomInner > div.swiper-controls > div.pager.swiper-pagination-fraction.swiper-pagination-horizontal > span.swiper-pagination-total::before{
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: -10px;
+    width: 3px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 100%;
+  }
+  body > main > section.sec10 > div > article.sec10BottomInner > div.swiper-controls > div.pager.swiper-pagination-fraction.swiper-pagination-horizontal > span.swiper-pagination-current{
+    font-size: 11px;
+  }
+  body > main > section.sec10 > div > article.sec10BottomInner > div.swiper-controls > div.pager.swiper-pagination-fraction.swiper-pagination-horizontal > span.swiper-pagination-total{
+    font-size: 11px;
+    position: relative;
+  }
+}
